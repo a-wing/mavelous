@@ -4,7 +4,7 @@ import os
 import sys
 import threading
 
-import mavlinkv10
+from pymavlink.dialects.v10 import ardupilotmega as mavlinkv10
 
 # FIXME: Please.
 sys.path.insert(0, os.path.join(
